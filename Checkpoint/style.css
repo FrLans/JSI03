@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(76, 76, 144);
+}
+.clockZone {
+  height: 320px;
+  width: 400px;
+  background-color: rgb(129, 202, 238);
+  border-radius: 30px;
+  border: 10px rgb(65, 125, 155) solid;
+  margin-left: 50vw;
+  margin-top: 50vh;
+  transform: translate(-50%, -50%);
+}
+.clock {
+  text-align: center;
+  margin-top: 10px;
+}
+.clockTime {
+  display: inline;
+  font-size: 20px;
+  font-family: "Space Mono";
+}
+.timeBtn {
+  height: 38px;
+  width: 75px;
+  font-size: 16px;
+  font-family: "Space Mono";
+  border-radius: 10px;
+  align-items: center;
+  appearance: button;
+  background-color: #0276ff;
+  border-style: none;
+  box-shadow: rgba(255, 255, 255, 0.26) 0 1px 2px inset;
+  color: #fff;
+  cursor: pointer;
+  text-align: center;
+  text-transform: none;
+}
+
+.timeBtn:hover {
+  background-color: #338fff;
+}
+
+.all {
+  width: 100%;
+  margin-top: 12px;
+  text-align: center;
+}
+#resetAll,
+#startAll,
+#pauseAll {
+  width: 110px;
+  margin-left: 4px;
+  margin-right: 4px;
+}
